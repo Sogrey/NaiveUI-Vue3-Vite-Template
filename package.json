@@ -1,11 +1,7 @@
 {
   "name": "naiveui-vue3-vite-template",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
+  "version": "0.0.1",
+  "description": "NaiveUI Template",
   "dependencies": {
     "vue": "^3.2.6"
   },
@@ -15,5 +11,26 @@
     "naive-ui": "^2.18.1",
     "vfonts": "^0.1.0",
     "vite": "^2.5.4"
-  }
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "npm run dev",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sogrey/NaiveUI-Vue3-Vite-Template.git"
+  },
+  "keywords": [
+    "Vue3",
+    "NaiveUI",
+    "Vite"
+  ],
+  "author": "Sogrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sogrey/NaiveUI-Vue3-Vite-Template/issues"
+  },
+  "homepage": "https://github.com/Sogrey/NaiveUI-Vue3-Vite-Template#readme"
 }
