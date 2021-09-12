@@ -9,49 +9,19 @@ NaiveUI Template
  
 ## 初始化项目
 
-使用 NPM:
 ``` bash
-npm init @vitejs/app
-```
-使用 Yarn:
-``` bash
-yarn create @vitejs/app
-```
-然后按照提示操作即可！
+# 克隆项目
+git clone https://github.com/Sogrey/NaiveUI-Vue3-Vite-Template.git
 
-``` sh
-PS G:\workspace\vue\NaiveUI-Vue3-Vite-Template> npm init @vitejs/app
-Need to install the following packages:
-  @vitejs/create-app
-Ok to proceed? (y) y
+# 进入项目
+cd NaiveUI-Vue3-Vite-Template
 
-@vitejs/create-app is deprecated, use npm init vite instead
+# 安装依赖
+npm install
 
-√ Project name: ... naiveui-vue3-vite-template
-√ Select a framework: » vue
-√ Select a variant: » vue
-
-Scaffolding project in G:\workspace\vue\NaiveUI-Vue3-Vite-Template\naiveui-vue3-vite-template...
-
-Done. Now run:
-
-  cd naiveui-vue3-vite-template
-  npm install
-  npm run dev
-```
-项目初始化后依次执行：
-``` bash
-  cd naiveui-vue3-vite-template
-  npm install
-  npm run dev
+# 运行预览
+npm start
 ```
 
-## 安装NaiveUI
-
-``` bash
-npm i -D naive-ui
-npm i -D vfonts
-```
-
-
+访问： http://localhost:3000/
 
